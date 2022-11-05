@@ -35,6 +35,14 @@
     "ajv-formats" "^2.1.1"
     "fast-uri" "^2.0.0"
 
+"@fastify/cors@^8.1.1":
+  "integrity" "sha512-YpkNonoJtn7Zcq2uyh0bFPcjW+njWZ9rz5gl8o5NDUvpBIPjg5m/3IHvsq91Pp/fFhLL7XgVOUyk+gMl8tb5FQ=="
+  "resolved" "https://registry.npmjs.org/@fastify/cors/-/cors-8.1.1.tgz"
+  "version" "8.1.1"
+  dependencies:
+    "fastify-plugin" "^4.0.0"
+    "mnemonist" "0.39.4"
+
 "@fastify/deepmerge@^1.0.0":
   "integrity" "sha512-E8Hfdvs1bG6u0N4vN5Nty6JONUfTdOciyD5rn8KnEsLKIenvOVcr210BQR9t34PRkNyjqnMLGk3e0BsaxRdL+g=="
   "resolved" "https://registry.npmjs.org/@fastify/deepmerge/-/deepmerge-1.1.0.tgz"
@@ -434,6 +442,11 @@
   "resolved" "https://registry.npmjs.org/fast-uri/-/fast-uri-2.1.0.tgz"
   "version" "2.1.0"
 
+"fastify-plugin@^4.0.0":
+  "integrity" "sha512-M3+i368lV0OYTJ5TfClIoPKEKSOF7112iiPdwgfSR0gN98BjA1Nk+c6oBHtfcVt9KiMxl+EQKHC1QNWo3ZOpYQ=="
+  "resolved" "https://registry.npmjs.org/fastify-plugin/-/fastify-plugin-4.3.0.tgz"
+  "version" "4.3.0"
+
 "fastify@^4.9.2":
   "integrity" "sha512-Mk3hv7ZRet2huMYN6IJ8RGy1TAAC7LJsCEjxLf808zafAADNu43xRzbl7FSEIBxKyhntTM0F626Oc34LUNcUxQ=="
   "resolved" "https://registry.npmjs.org/fastify/-/fastify-4.9.2.tgz"
@@ -590,6 +603,13 @@
   "resolved" "https://registry.npmjs.org/mkdirp-classic/-/mkdirp-classic-0.5.3.tgz"
   "version" "0.5.3"
 
+"mnemonist@0.39.4":
+  "integrity" "sha512-WlE2Ugow1ENH5un0OthjsjpJb/nbkUQ/jUOHtZUqh58JNzEHNxkm0tIFRAoExsANW/fTN/rxBUMFY/7jPDvxdQ=="
+  "resolved" "https://registry.npmjs.org/mnemonist/-/mnemonist-0.39.4.tgz"
+  "version" "0.39.4"
+  dependencies:
+    "obliterator" "^2.0.1"
+
 "ms@2.1.2":
   "integrity" "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w=="
   "resolved" "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
@@ -601,6 +621,11 @@
   "version" "2.6.7"
   dependencies:
     "whatwg-url" "^5.0.0"
+
+"obliterator@^2.0.1":
+  "integrity" "sha512-lgHwxlxV1qIg1Eap7LgIeoBWIMFibOjbrYPIPJZcI1mmGAI2m3lNYpK12Y+GBdPQ0U1hRwSord7GIaawz962qQ=="
+  "resolved" "https://registry.npmjs.org/obliterator/-/obliterator-2.0.4.tgz"
+  "version" "2.0.4"
 
 "on-exit-leak-free@^2.1.0":
   "integrity" "sha512-VuCaZZAjReZ3vUwgOB8LxAosIurDiAW0s13rI1YwmaP++jvcxP77AWoQvenZebpCA2m8WC1/EosPYPMjnRAp/w=="

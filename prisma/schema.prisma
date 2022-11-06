@@ -49,20 +49,20 @@ model User {
 }
 
 model Game {
-  id                        String   @id @default(cuid())
-  date                      DateTime
-  first_team_country_code   String
-  secound_team_country_code String
+  id                       String   @id @default(cuid())
+  date                     DateTime
+  first_team_country_code  String
+  second_team_country_code String
 
   guesses Guess[]
 }
 
 model Guess {
-  id                  String @id @default(cuid())
-  first_team_points   Int
-  secound_team_points Int
-  game_id             String
-  participant_id      String
+  id                 String @id @default(cuid())
+  first_team_points  Int
+  second_team_points Int
+  game_id            String
+  participant_id     String
 
   participant Participant @relation(fields: [participant_id], references: [id])
   game        Game        @relation(fields: [game_id], references: [id])

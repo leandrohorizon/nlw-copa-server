@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"projectManager.git.baseFolders": [
+			"~/workspace/nlw/copa",
+		],
+
+		"[prisma]" : {
+			"editor.formatOnSave" : true
+		},
+	}
+}
